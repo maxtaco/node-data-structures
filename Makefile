@@ -3,7 +3,7 @@ BROWSERIFY=node_modules/.bin/browserify
 BUILD_STAMP=build-stamp
 WD=`pwd`
 
-lib/%.js: src/%.coffee
+lib/%.js: src/%.iced
 	$(ICED) -I none -c -o lib $<
 
 $(BUILD_STAMP): \
