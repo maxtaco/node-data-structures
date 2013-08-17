@@ -20,12 +20,16 @@ exports.List = class List
 
   #-----------------------------------------
 
+  # fn() is a function that's called once with each
+  # element in the list. Keep walking the list so long
+  # as fn() returns true; otherwise, break out.
   walk : (fn) ->
     p = @_head
     while p
       next = p.__list_next
-      fn p
+      break unless fn p
       p = next
+    true
 
   #-----------------------------------------
 

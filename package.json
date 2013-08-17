@@ -1,9 +1,12 @@
 {
-  "name" : "maxtaco-data-structures",
-  "version" : "0.0.1",
-  "description" : "Simple commonly-used data structures",
+  "name" : "iced-data-structures",
+  "version" : "0.0.2",
+  "description" : "Simple commonly-used data structures, written in IcedCoffeeScript",
   "homepage" : "https://github.com/maxtaco/node-data-structures",
   "main" : "./lib/index.js",
+  "directories" : {
+    "lib" : "lib"
+  },
   "repository" : { 
     "type" : "git",
      "url" : "https://github.com/maxtaco/node-data-structures.git"
