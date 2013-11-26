@@ -11,6 +11,11 @@ exports.List = class List
 
   #-----------------------------------------
 
+  head : () -> @_head
+  tail : () -> @_tail
+
+  #-----------------------------------------
+
   push : (o) ->
     o.__list_prev = @_tail
     o.__list_next = null

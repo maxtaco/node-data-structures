@@ -1,6 +1,6 @@
 {
   "name" : "iced-data-structures",
-  "version" : "0.0.2",
+  "version" : "0.0.3",
   "description" : "Simple commonly-used data structures, written in IcedCoffeeScript",
   "homepage" : "https://github.com/maxtaco/node-data-structures",
   "main" : "./lib/index.js",
